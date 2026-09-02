@@ -1820,3 +1820,102 @@ body:has(.auth-page){
     display:none!important;
   }
 }
+
+.error-home-button{
+  border:0!important;
+  cursor:pointer!important;
+  font-family:inherit!important;
+}
+.error-button-row{
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  gap:18px!important;
+  flex-wrap:wrap!important;
+}
+.error-home-link{
+  background:#3f3834!important;
+}
+.error-home-link:hover{
+  background:#2f2926!important;
+}
+
+.new-footer-socials .footer-x-social{
+  background:#fff!important;
+  color:#111!important;
+  text-decoration:none!important;
+  border:1px solid #252525!important;
+  border-radius:50%!important;
+  display:grid!important;
+  place-items:center!important;
+  width:48px!important;
+  height:48px!important;
+  flex:0 0 48px!important;
+  overflow:hidden!important;
+  font-family:Arial Black,Arial,sans-serif!important;
+  font-size:24px!important;
+  line-height:1!important;
+}
+.new-footer-socials .footer-x-social span{
+  display:block!important;
+  transform:scaleX(1.08)!important;
+}
+
+.auth-topbar p{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-end!important;
+  gap:18px!important;
+}
+.auth-home-link{
+  min-width:78px!important;
+  height:34px!important;
+  border-radius:8px!important;
+  background:#FE5C03!important;
+  color:#fff!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-decoration:none!important;
+  font-weight:700!important;
+}
+
+@media(max-width:650px){
+  .auth-topbar p{
+    gap:8px!important;
+    flex-wrap:wrap!important;
+  }
+  .auth-home-link{
+    min-width:60px!important;
+    height:28px!important;
+    font-size:11px!important;
+  }
+}
+
+.auth-left-actions{
+  display:flex!important;
+  align-items:center!important;
+  gap:18px!important;
+}
+.auth-left-actions>a:first-child,
+.auth-left-actions>a:first-child img{
+  display:block!important;
+  width:142px!important;
+  height:48px!important;
+  object-fit:contain!important;
+}
+.auth-topbar p{
+  gap:0!important;
+  flex-wrap:nowrap!important;
+}
+
+@media(max-width:650px){
+  .auth-left-actions{
+    gap:8px!important;
+  }
+  .auth-left-actions>a:first-child,
+  .auth-left-actions>a:first-child img{
+    width:132px!important;
+    height:46px!important;
+  }
+}
