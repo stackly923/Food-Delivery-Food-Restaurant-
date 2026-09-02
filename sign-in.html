@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sign In | STACKLY</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body><main class="auth-page">
+  <header class="auth-topbar"><a href="index.html" aria-label="STACKLY home"><img src="assets/images/auth-logo.webp" alt="STACKLY"></a><p>New here? <a href="sign-up.html">Sign Up</a></p></header>
+  <img class="auth-decor auth-cake" src="assets/images/auth-cake.webp" alt=""><img class="auth-decor auth-pizza" src="assets/images/auth-pizza.webp" alt=""><img class="auth-decor auth-biryani" src="assets/images/auth-biryani.webp" alt=""><img class="auth-decor auth-tomatoes" src="assets/images/auth-tomatoes.webp" alt="">
+  <section class="auth-panel"><div class="auth-intro"><h1>Welcome Back!</h1><p>Sign in to continue to your account</p></div>
+    <div class="auth-roles" aria-label="Choose account type">
+      <button type="button" class="selected" data-role><img src="assets/images/auth-customer.webp" alt=""><strong>Customer</strong><span>Order food</span><i>✓</i></button>
+      <button type="button" data-role><img src="assets/images/auth-restaurant.webp" alt=""><strong>Restaurant</strong><span>Manage restaurant</span></button>
+      <button type="button" data-role><img src="assets/images/auth-delivery.webp" alt=""><strong>Delivery partner</strong><span>Deliver orders</span></button>
+    </div>
+    <form class="auth-form"><label>Email Address<div class="auth-input"><img src="assets/images/auth-email.webp" alt=""><input type="email" name="email" placeholder="Enter your email" required></div></label><label>Password<div class="auth-input"><img src="assets/images/auth-password.webp" alt=""><input type="password" placeholder="Enter your password" minlength="6" required></div></label><div class="auth-options"><label><input type="checkbox" checked> Remember me</label><a href="#forgot">Forgot Password?</a></div><button class="auth-submit" type="submit"><img src="assets/images/auth-signin.webp" alt="">Sign In</button><p class="auth-message" role="status"></p><div class="auth-divider"><span>Or continue with</span></div><button class="auth-social" type="button"><img src="assets/images/auth-google.webp" alt="">Continue With Google</button><button class="auth-social" type="button"><img src="assets/images/auth-apple.webp" alt="">Continue With Apple</button></form>
+  </section></main><script src="assets/js/auth.js"></script></body></html>
