@@ -10,7 +10,10 @@
   <main class="error-page">
     <section class="error-visual" aria-label="404 page not found illustration">
       <div class="error-number" aria-hidden="true"><span>4</span><span class="error-zero"><i class="sun"></i><i class="dune dune-back"></i><i class="dune dune-front"></i><i class="path"></i><i class="traveller"></i></span><span>4</span></div>
-      <a class="error-home-button" href="index.html">Back to Home</a>
+      <div class="error-button-row">
+        <button class="error-home-button" type="button" onclick="history.length > 1 ? history.back() : location.href='index.html'">Go Back</button>
+        <a class="error-home-button error-home-link" href="index.html">Home</a>
+      </div>
     </section>
     <section class="error-message">
       <div class="error-message-copy">
